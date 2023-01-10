@@ -1,7 +1,11 @@
 //-------1-------
 $(()=>{
     $("#main").bind("mousemove", function(event){
-        $("#image").css({"left" : event.pageX, "top" : event.pageY});
+        let height = $("#image").css("height").replace('px','');
+        let width = $("#image").css("width").replace('px','');
+        let x = event.pageX < (window.innerWidth - width) ? event.pageX : window.innerWidth - width;
+        let y = event.pageY < (window.innerHeight - height) ? event.pageY : window.innerHeight - height;
+        $("#image").css({"left" : x, "top" : y});
     })
 });
 
