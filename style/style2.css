@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 30px 30px 10px 30px;
+    background-color: beige;
+}
+
+.containerColor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sizeButton{
+    width: 90px;
+    border: transparent;
+    color: white;
+    padding: 5px 0;
+}
+
+.dev{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.red{
+    background-color: palevioletred;
+}
+
+.green{
+    background-color:rgb(3, 191, 166);
+}
+
+.orange{
+    background-color:rgb(250, 141, 114);
+}
+
+.yellow{
+    background-color: goldenrod;
+}
+
+.title{
+    text-align: center;
+}
+
+.conteinerFruits{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sizeDiv{
+    width: 165px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: transparent;
+    color: white;
+    padding: 5px 0;
+}

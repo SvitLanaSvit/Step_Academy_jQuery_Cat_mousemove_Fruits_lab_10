@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../media/natur.jpg);
+    height: 100vh;
+    background-position:bottom;
+    background-size: cover;
+}
+
+.natur{
+    position: relative;
+}
+
+img{
+    height: 150px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
